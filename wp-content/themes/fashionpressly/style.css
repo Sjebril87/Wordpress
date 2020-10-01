@@ -1,0 +1,230 @@
+/* 
+Theme Name: Fashionpressly
+Theme URI: https://superbthemes.com/child-theme/fashionpressly/
+Description: FashionPressly is a responsive life style WordPress theme made for bloggers, newspapers, writers and journalists, who has a blog and or websites. It is both elegant and minimalistic so your blog posts about food, lifestyle, fashion, movies, travel, clothing, products, reviews or something third is in focus. FashionPressly in the ways that it is both fast and search engine optimized (SEO friendly) as a theme should be nowadays. The sidebar and header widgets is perfect for adsense affiliate links or whatever else you wish to put there. Installing and setting up the theme is simple for any author, we have tried to optimise the user friendliness by making the interface clean and so it as easy as possible to set up and start using. If the business aspect is important for you, for example if you are using it as a newspaper or personal writing/journalist portfolio then it's great since your website is able to rank everywhere on the internet with our theme, for example in Yahoo, Bing or Google.
+Author: themeeverest
+Author URI: https://superbthemes.com/
+Template: lifestylepress
+Version: 1.1
+Text Domain: fashionpressly
+Tags: two-columns, left-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-image-header, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, blog, entertainment, news
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+
+
+.main-navigation.nav-fixed {
+    position: fixed;
+    top: 0;
+}
+
+.blog .post-data-text span.byline {
+    display: none;
+}
+
+
+body,
+code,
+html,
+kbd,
+pre,
+samp,
+code,
+kbd,
+pre,
+tt,
+var {
+	font-family: Lato, 'helvetica neue', helvetica, arial
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+	color: #000;
+	line-height: 140%;
+	font-weight: 400;
+	margin-bottom: 15px;
+	font-family: Merriweather, lato, 'helvetica neue', helvetica, arial;
+}
+
+.main-navigation ul li a {
+	text-transform:none;
+}
+
+.site-branding .site-title {
+	font-size: 58px;
+	font-family: 'Raleway' ,Merriweather, lato, 'helvetica neue', helvetica, arial;
+}
+
+@media screen and (max-width: 700px) {
+  .site-branding .site-title {
+	font-size: 38px;
+}
+}
+
+.entry-meta {
+	margin-bottom: 14px;
+	font-family: Lato, 'helvetica neue', helvetica, arial
+}
+
+h1.entry-title, h2.entry-title, h2.entry-title a:hover, h2.entry-title a:active {
+	font-family: Merriweather;
+	font-weight: 400;
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 0px;
+}
+
+article .entry-content {
+	font-family: 'lato', lato, 'helvetica neue', helvetica, arial, sans-serif;
+	line-height: 150%;
+	color: #656565;
+	font-size: 16px;
+}
+
+.blogpost-button {
+	padding: 15px 25px;
+	border-radius: 3px;
+	background: #000;
+	font-weight: 700;
+	font-size: 15px;
+	color: #fff;
+	margin: auto;
+	display:inline-block;
+	text-decoration: none;
+}
+
+.search-no-results h1, .error404 h1 {
+	font-size: 28px;
+	line-height: 150%;
+	padding: 0;
+	margin: 0;
+	font-family: Merriweather, lato, 'helvetica neue', helvetica, arial;
+}
+
+.search-results h1.page-title {
+	text-align: center;
+	font-size: 35px;
+	border-top: 4px double #000;
+	border-bottom: 4px double #000;
+	font-weight: 400;
+	line-height: 150%;
+	padding: 10px 0 15px;
+	font-family: Merriweather, lato, 'helvetica neue', helvetica, arial;
+}
+
+.comments-area .comments-title {
+	font-family: Merriweather, lato, 'helvetica neue', helvetica, arial;
+}
+
+.search-no-results .search-form label, .error404 .search-form label {
+	float: none;
+	margin-right: -5px;
+	border: 1px solid #000;
+	border-right: 0px solid #fff;
+	padding: 0;
+}
+
+.error404 .search-form label, .search-no-results .search-form label {
+	float: none;
+	margin-right: -5px;
+	border: 1px solid #000;
+	border-right: 0px solid #fff;
+	padding: 0;
+}
+
+.error404 input.search-submit, .search-no-results input.search-submit {
+	padding: 11px;
+	border: 1px solid #000;
+	background: rgba(0,0,0,0);
+	color: #000;
+}
+
+.error404 input.search-field, .search-no-results input.search-field {
+	color:#000;
+	padding: 10px;
+}
+
+.archive .page-header h1 {
+	text-align: center;
+	font-size: 30px;
+	border-top: 4px double #000;
+	border-bottom: 4px double #000;
+	margin-bottom: 40px;
+	line-height: 150%;
+	padding: 10px 0 15px;
+}
+
+.archive header.fbox.page-header {
+	padding: 0;
+}
+
+.comments-area {
+	border:1px solid #000;
+}
+
+.comments-area .comment-author .fn a {
+	text-decoration:none;
+}
+
+.comment span.edit-link {
+	float: right;
+}
+
+.comments-area .comment-meta .comment-metadata a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#comments ol.comment-list {
+	padding-left: 0;
+	margin-left: 0;
+	list-style:none;
+}
+
+.comments-area ol.comment-list .comment {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	margin-bottom: 40px;
+	padding-bottom:40px;
+}
+
+span.page-numbers.dots {
+	padding: 10px 17px;
+	transition: all 0.4s;
+	font-size: 14px;
+	color: #000;
+	margin: 0 5px;
+	text-decoration: none;
+	border: 1px solid #000;
+	font-weight: 600;
+	display: inline-block;
+	float: left;
+}
+
+.comments-area .reply {
+	padding-left: 45px;
+	font-size: 14px;
+	padding-bottom: 0
+}
+
+div#respond {
+	text-align: center;
+}
+
+p.comment-form-url {
+	display: none;
+}
+
+#comments h3#reply-title {
+	font-family: Merriweather, lato, 'helvetica neue', helvetica, arial;
+	font-size: 26px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+}
